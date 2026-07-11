@@ -1,0 +1,15 @@
+{
+  "name": "woti-tools",
+  "owner": {
+    "name": "Woti Group"
+  },
+  "description": "Interne Claude Code-tools voor Omit Design / tdjw-projecten.",
+  "plugins": [
+    {
+      "name": "woti-client-first",
+      "displayName": "Woti Client First",
+      "source": "./plugins/woti-client-first",
+      "description": "Client-First (Finsweet) vertaald naar Astro + TypeScript: naamgeving, core structure, tokens, layout-patronen, a11y/WCAG."
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "woti-client-first",
+  "displayName": "Woti Client First",
+  "description": "Vertaalt Finsweet's Client-First naamgevings- en structuurmethodologie naar een component-based Astro + TypeScript workflow met CSS custom properties als design tokens.",
+  "author": {
+    "name": "Woti Group"
+  }
+}
