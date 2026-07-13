@@ -211,8 +211,10 @@ Normale tekst...
 1. Push naar `main` triggert GitHub Action
 2. Action draait `npm run typecheck` (`astro check`) en `npm run lint` (`biome check`) — build stopt bij fouten
 3. Action bouwt Astro (`astro build` → statische `dist/`)
-4. Action deployt `dist/` via FTP/SFTP naar de hostingomgeving (`public_html` of subdirectory)
+4. Action deployt `dist/` via FTP/FTPS naar de hostingomgeving (`public_html` of subdirectory)
 5. Geen server-side stappen nodig — hosting hoeft alleen statische bestanden te serveren
+
+**Zie [`FTP-DEPLOY-GUIDE.md`](./FTP-DEPLOY-GUIDE.md)** voor de werkende `deploy.yml`, welke secrets/variables je van de hostingpartij nodig hebt, en een troubleshooting-logboek voor veelvoorkomende FTP-foutmeldingen (`ECONNRESET`, `ETIMEDOUT`, `ENETUNREACH`) — lees dit vóórdat je een nieuwe FTP-deploy opzet of een falende deploy debugt.
 
 ---
 
